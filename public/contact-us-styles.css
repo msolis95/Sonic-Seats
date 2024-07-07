@@ -1,0 +1,16 @@
+/* 
+ * CS 132
+ * Name: Mario Solis
+ * Partner: Evelyn Huerta
+ *
+ * This is the styles.css file for the feedback page on the
+ * Sonic seats website.
+ */
+
+form, section > button {
+    text-align: center;
+}
+
+section > button {
+    margin-bottom: 25px;
+}

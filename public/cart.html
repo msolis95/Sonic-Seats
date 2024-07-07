@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    CS 132
+    Final Project
+    Name: Mario Solis
+    Partner: Evelyn Huerta
+    
+    This is the HTML file for the Cart page of the Sonic Seats website.
+ -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonic Seats</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cart-styles.css">
+    <script src="utils.js"></script>
+    <script defer src="sonic-seats.js"></script>
+    <script defer src="cart.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Sonic Seats</h1>
+            <img src="imgs/logo.png" alt="logo">
+        </div>
+        <p>Find concert tickets in the DMV easily!</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="concerts.html">CONCERTS</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="policies.html">POLICIES</a></li>
+                <li><a href="about-us.html">ABOUT US</a></li>
+                <li><a href="contact-us.html">CONTACT US</a></li>
+            </ul>
+            <a href="cart.html">CART</a>
+        </nav>
+        <p id="message-area" class="hidden"></p>
+    </header>
+    <main>
+        <section>
+            <h2>Cart</h2>
+            <p class="hidden">
+                Your order is complete. Thank you for shopping with Sonic Seats! Have fun at the concert!
+            </p>
+            <div>
+                <p>Nothing in the cart!</p>
+                <div id="cart-container"></div>
+                <!-- review panel -->
+                <aside>
+                    <h3>Your Order</h3>
+                    <fieldset class="hidden">
+                        <p>Payment method:</p>
+                        <div>
+                            <input type="radio" id="credit-card" name="payment-method"
+                                value="credit card" required />
+                            <label for="credit-card">Credit card</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="cash" name="payment-method" value="cash" />
+                            <label for="cash">Cash</label>
+                        </div>
+                    </fieldset>
+                    <p>Total: $0.00</p>
+                    <button class="hidden">Place order</button>
+                </aside>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            This website was created by Mario Solis collaboratively with Evelyn Huerta
+            for the final project of CS 132 at <span>Caltech</span> in May-June 2024.
+            <br>
+            Our Contact Us page Inspired By CS 132 Lecture 18. Here are
+            <a href="image-credit.html"> Image Credits</a> for our website.
+        </p>
+    </footer>
+</body>
+</html>

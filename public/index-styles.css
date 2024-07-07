@@ -1,0 +1,42 @@
+/* 
+ * CS 132
+ * Final Project
+ * Name: Mario Solis
+ * Partner: Evelyn Huerta
+ *
+ * This is the styles.css file for the homepage of
+ * the Sonic Seats website.
+ */
+
+#trending-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#trending-container img {
+    max-height: 45vh;
+}
+
+.blue-star {
+    position: relative;
+}
+
+.blue-star:before {
+    color: blue;
+    content: '\2605';
+    position: absolute;
+    bottom: 0.1px;
+    left: -22px;
+}
+
+#trending-section, #trending-section button {
+    font-size: 14pt;
+}
+
+#trending-section p {
+    margin-bottom: 0px;
+}
+
+input {
+    font-size: 14pt;
+}

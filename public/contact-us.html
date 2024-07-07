@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    CS 132
+    Final Project
+    Name: Mario Solis
+    Partner: Evelyn Huerta
+    
+    This is the HTML file for the Contact Us of the Sonic Seats website.
+ -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonic Seats</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact-us-styles.css">
+    <script src="utils.js"></script>
+    <script defer src="sonic-seats.js"></script>
+    <script defer src="contact.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Sonic Seats</h1>
+            <img src="imgs/logo.png" alt="logo">
+        </div>
+        <p>Find concert tickets in the DMV easily!</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="concerts.html">CONCERTS</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="policies.html">POLICIES</a></li>
+                <li><a href="about-us.html">ABOUT US</a></li>
+                <li><a href="contact-us.html">CONTACT US</a></li>
+            </ul>
+            <a href="cart.html">CART</a>
+        </nav>
+        <p id="message-area" class="hidden"></p>
+    </header>
+    <main>
+        <section id="form">
+            <h2>Contact Us</h2>
+            <form>
+                <p>
+                    Required components are followed by *. Please provide your contact
+                    information if you would like us to follow up on your comment.
+                </p>
+                <p>
+                    Category:*
+                    <select name="category" required>
+                        <option value="">--- Select one ---</option>
+                        <option value="Concerts">Concerts</option>
+                        <option value="Tickets">Tickets</option>
+                        <option value="Policies">Policies</option>
+                        <option value="Top Picks">Mario's Top Picks</option>
+                        <option value="Website">Website</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Name:
+                        <input id="name" name="name" type="text"/>
+                    </label>
+                </p>
+                <p>
+                    <label>Email:
+                        <input id="email" name="email" type="email" placeholder="customer@sonicseats.com"/>
+                    </label>
+                </p>
+                <p>
+                    <label>Phone Number:
+                        <input id="phone-number" name="phone-number" type="tel" placeholder="XXX-XXX-XXXX"/>
+                    </label>
+                </p>
+                <p><label for="description">Feedback/Questions/Complaints (min. 10 characters):*</label></p>
+                <textarea id="description" name="description"
+                    minlength="10" rows="10" cols="70"></textarea>
+                <p><button>Submit</button></p>
+            </form>
+        </section>
+        <section id="submitted" class="hidden">
+            <h2>Comment Submitted</h2>
+            <p>
+                Thank you for contacting us! We will reach out to you in 
+                up to five business days to follow up on your feedback,
+                questions, and/or complaints.
+            </p>
+            <button>Contact us again</button>
+        </section>
+    </main>
+    <footer>
+        <p>
+            This website was created by Mario Solis collaboratively with Evelyn Huerta
+            for the final project of CS 132 at <span>Caltech</span> in May-June 2024.
+            <br>
+            Our Contact Us page Inspired By CS 132 Lecture 18. Here are
+            <a href="image-credit.html"> Image Credits</a> for our website.
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    CS 132
+    Final Project
+    Names: Mario Solis
+    Partner: Evelyn Huerta
+    
+    This is the HTML file for the concerts page of my concert ticket-selling website.
+ -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonic Seats</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="concerts-styles.css">
+    <script src="utils.js"></script>
+    <script defer src="sonic-seats.js"></script>
+    <script defer src="concerts.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Sonic Seats</h1>
+            <img src="imgs/logo.png" alt="logo">
+        </div>
+        <p>Find concert tickets in the DMV easily!</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="concerts.html">CONCERTS</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="policies.html">POLICIES</a></li>
+                <li><a href="about-us.html">ABOUT US</a></li>
+                <li><a href="contact-us.html">CONTACT US</a></li>
+            </ul>
+            <a href="cart.html">CART</a>
+        </nav>
+        <p id="message-area" class="hidden"></p>
+    </header>
+    <main>
+        <section id="concert-results">
+            <h2>Concerts</h2>
+            <div>
+                <!--
+                    These options are hardcoded based on our data but with more time
+                    I would populate these options based on the API data in case there
+                    are new genres.
+                -->
+                <label>Artist:
+                    <input type="search" placeholder="The Weeknd">
+                </label>
+                <label>Venue:
+                    <select id="venue">
+                        <option value="" selected>No venue selected</option>
+                        <option value="Capital One Arena">Capital One Arena</option>
+                        <option value="EagleBank Arena">EagleBank Arena</option>
+                        <option value="FedExField">FedExField</option>
+                        <option value="Jiffy Lube Live">Jiffy Lube Live</option>
+                        <option value="Merriweather Post Pavilion">Merriweather Post Pavilion</option>
+                        <option value="MGM National Harbor">MGM National Harbor</option>
+                        <option value="The Anthem">The Anthem</option>
+                        <option value="Verizon Center">Verizon Center</option>
+                    </select>
+                </label>
+                <label>City:
+                    <select id="city">
+                        <option value="" selected>No venue selected</option>
+                        <option value="Bristow, VA">Bristow, VA</option>
+                        <option value="Columbia, MD">Columbia, MD</option>
+                        <option value="Fairfax, VA">Fairfax, VA</option>
+                        <option value="Landover, MD">Landover, MD</option>
+                        <option value="Oxon Hill, MD">Oxon Hill, MD</option>
+                        <option value="Washington, DC">Washington, DC</option>
+                    </select>
+                </label>
+                <label>Genre:
+                    <select id="genre">
+                        <option value="" selected>No genre selected</option>
+                        <option value="Country">Country</option>
+                        <option value="Electronic">Electronic</option>
+                        <option value="Hip Hop">Hip Hop</option>
+                        <option value="Indie">Indie</option>
+                        <option value="Latin">Latin</option>
+                        <option value="Pop">Pop</option>
+                        <option value="Rock">Rock</option>
+                        <option value="R&B">R&B</option>
+                    </select>
+                </label>
+                <button>Search</button>
+            </div>
+            <!--
+                I don't have time to implement this small feature of showing
+                15 results at a time, having a small page buttons at the bottom
+                of the screen, and displaying the below based on how many
+                results were returned by the API.
+            -->
+            <p>Showing 15 results out of 18 results:</p>
+            <div id="search-results">
+                <!-- concert card container -->
+                <!--
+                    Unfortunately, I don't have time to find all images for all
+                    artists. I was planning to use the Spotify API to search for
+                    each artist and display the image returned by the API.             
+                -->
+                <div></div>
+                <!-- top tracks container -->
+                <!--
+                    I also could not get to this feature. I wanted
+                    to populate this aside element with real data
+                    from the Spotify API based on the artist of the
+                    first result that pops up in the search.
+                -->
+                <aside>
+                    <h3>Top 10 Tracks by The Weeknd</h3>
+                    <ol>
+                        <li>Blinding Lights</li>
+                        <li>Starboy</li>
+                        <li>Save Your Tears</li>
+                    </ol>
+                </aside>
+            </div>
+        </section>
+        <section id="concert-tickets" class="hidden">
+            <!-- to be populated with artist name after button click -->
+            <h2></h2>
+            <p id="date-time"></p>
+            <p id="location"></p>
+            <div>
+                <div id="map-container">
+                    <img src="imgs/venue-map.png" alt="Venue Map">
+                    <button>&larr; Back to Concerts</button>
+                </div>
+                <div id="seat-container">
+                    <h3>Available Seats</h3>
+                    <label>Section:
+                        <select>
+                            <option value="" selected>Choose a section</option>
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="C">C</option>
+                            <option value="D">D</option>
+                            <option value="E">E</option>
+                        </select>
+                    </label>
+                    <div>
+                        <!-- <label>
+                            <input type="checkbox">
+                            A1
+                        </label> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            This website was created by Mario Solis collaboratively with Evelyn Huerta
+            for the final project of CS 132 at <span>Caltech</span> in May-June 2024.
+            <br>
+            Our Contact Us page Inspired By CS 132 Lecture 18. Here are
+            <a href="image-credit.html"> Image Credits</a> for our website.
+        </p>
+    </footer>
+</body>
+</html>

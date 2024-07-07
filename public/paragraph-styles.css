@@ -1,0 +1,13 @@
+/**
+ * CS 132
+ * Spring 2024
+ * Name: Mario Solis
+ * Partner: Evelyn Huerta
+ *
+ * This is the paragraphs-styles.css file for the FAQ, Policies, and
+ * About Us page on the Sonic Seats website.
+ */
+
+section p {
+   font-size: 15pt;
+}

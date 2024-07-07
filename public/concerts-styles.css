@@ -1,0 +1,117 @@
+/* 
+ * CS 132
+ * Name: Mario Solis
+ * Partner: Evelyn Huerta
+ *
+ * This is the styles.css file for the concerts page of my website.
+ */
+
+h2 {
+    margin-bottom: 10px;
+}
+
+#concert-tickets h3 {
+    font-size: 16pt;
+    margin: 0px 0px 15px 0px;
+}
+
+#search-results, .concert-card, #concert-tickets label, #concert-tickets > div, #map-container {
+    display: flex;
+}
+
+#search-results {
+    justify-content: space-between;
+}
+
+#concert-tickets > div {
+    justify-content: space-around;
+}
+
+.concert-card {
+    border-style: solid;
+    min-width: 700px;
+    padding: 5px;
+    margin: 0px 10px 10px;
+    justify-content: space-between;
+}
+
+.concert-card, #concert-tickets label {
+    align-items: center;
+}
+
+#seat-container {
+    background-color: lightgray;
+    height: 320px;
+    padding: 20px;
+}
+
+#seat-container > div {
+    height: 245px;
+    overflow-y: auto;
+}
+
+#seat-container p {
+    margin: 5px 5px;
+}
+
+#seat-container > div > div {
+    margin-bottom: 20px;
+}
+
+#concert-tickets label {
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+
+#concert-tickets select {
+    margin-left: 10px;
+}
+
+.concert-card p {
+    margin: 2px;
+}
+
+.concert-card img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.concert-card button, #concert-tickets > div > button {
+    height: 30px;
+    margin-right: 20px;
+    font-size: 14pt;
+}
+
+#concert-results input, #concert-results select, #map-container button {
+    margin-right: 15px;
+}
+
+#map-container {
+    flex-direction: column;
+}
+
+#map-container button {
+    font-size: 14pt;
+    width: fit-content;
+}
+
+#concert-tickets > p {
+    margin: 0px;
+    font-size: 14pt;
+}
+
+#concert-tickets img {
+    margin-top: 15px;
+    max-height: 40vh;
+    width: auto;
+    max-width: 800px;
+    margin-bottom: 15px;
+}
+
+#concert-tickets input {
+    margin: 0px 3px;
+}
+
+aside {
+    margin-right: 30px;
+}

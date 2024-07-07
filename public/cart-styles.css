@@ -1,0 +1,77 @@
+/* 
+ * CS 132
+ * Final Project
+ * Name: Mario Solis
+ * Partner: Evelyn Huerta
+ *
+ * This is the styles.css file for the Cart page of the
+ * Sonic Seats website where user complete their orders.
+ */
+
+h3 {
+    margin-top: 0px;
+}
+
+section > div, #cart-container > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    background-color: aliceblue;
+    padding: 15px;
+    width: 20vw;
+    height: fit-content;
+    margin-right: 40px;
+}
+
+aside p {
+    margin: 0px;
+}
+
+fieldset {
+    margin-bottom: 10px;
+}
+
+fieldset p {
+    margin-bottom: 5px;
+}
+
+aside > button {
+    margin-top: 10px;
+}
+
+section > p {
+    margin-bottom: 30px;
+}
+
+section > div > p, section > p {
+    font-size: 14pt;
+}
+
+section > div > p {
+    margin: 0px 10px;
+}
+
+#cart-container > div {
+    background-color: lightgoldenrodyellow;
+    border-style: solid;
+    min-width: 700px;
+    padding: 5px;
+    margin: 0px 10px 10px;
+    justify-content: space-between;
+}
+
+#cart-container > div img {
+    width: 300px;
+}
+
+#cart-container button {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 12pt;
+}
+
+section > p {
+    text-align: center;
+}

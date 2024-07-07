@@ -1,0 +1,202 @@
+[
+    {
+        "purchaseId": 0,
+        "concertId": "0",
+        "seats": [
+            "A1",
+            "A2",
+            "A3"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1718563431043
+    },
+    {
+        "purchaseId": 1,
+        "concertId": "0",
+        "seats": [
+            "B1"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1718609027619
+    },
+    {
+        "purchaseId": 2,
+        "concertId": "0",
+        "seats": [
+            "B2"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1718609027676
+    },
+    {
+        "purchaseId": 3,
+        "concertId": "0",
+        "seats": [
+            "B3"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1718609027710
+    },
+    {
+        "purchaseId": 4,
+        "concertId": "0",
+        "seats": [
+            "B4"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1718609027744
+    },
+    {
+        "purchaseId": 5,
+        "concertId": "4",
+        "seats": [
+            "B1"
+        ],
+        "paymentMethod": "credit card",
+        "timestamp": 1718609592037
+    },
+    {
+        "purchaseId": 6,
+        "concertId": "4",
+        "seats": [
+            "B2"
+        ],
+        "paymentMethod": "credit card",
+        "timestamp": 1718609592087
+    },
+    {
+        "purchaseId": 7,
+        "concertId": "4",
+        "seats": [
+            "B3"
+        ],
+        "paymentMethod": "credit card",
+        "timestamp": 1718609592151
+    },
+    {
+        "purchaseId": 8,
+        "concertId": "1",
+        "seats": [
+            "C1"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1718609726742
+    },
+    {
+        "purchaseId": 9,
+        "concertId": "1",
+        "seats": [
+            "C2"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1718609726778
+    },
+    {
+        "purchaseId": 10,
+        "concertId": "1",
+        "seats": [
+            "C3"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1718609726813
+    },
+    {
+        "purchaseId": 11,
+        "concertId": "12",
+        "seats": [
+            "B18"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1718609821344
+    },
+    {
+        "purchaseId": 12,
+        "concertId": "12",
+        "seats": [
+            "B19"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1718609821385
+    },
+    {
+        "purchaseId": 13,
+        "concertId": "12",
+        "seats": [
+            "B15"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1718609821423
+    },
+    {
+        "purchaseId": 14,
+        "concertId": "12",
+        "seats": [
+            "B14"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1718609821460
+    },
+    {
+        "purchaseId": 15,
+        "concertId": "22",
+        "seats": [
+            "A1"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1718652967564
+    },
+    {
+        "purchaseId": 16,
+        "concertId": "0",
+        "seats": [
+            "C1"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1718652967621
+    },
+    {
+        "purchaseId": 17,
+        "concertId": "0",
+        "seats": [
+            "C2"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1718652967664
+    },
+    {
+        "purchaseId": 18,
+        "concertId": "10",
+        "seats": [
+            "B1"
+        ],
+        "paymentMethod": "credit card",
+        "timestamp": 1718666044088
+    },
+    {
+        "purchaseId": 19,
+        "concertId": "10",
+        "seats": [
+            "B2"
+        ],
+        "paymentMethod": "credit card",
+        "timestamp": 1718666044142
+    },
+    {
+        "purchaseId": 20,
+        "concertId": "10",
+        "seats": [
+            "B10"
+        ],
+        "paymentMethod": "credit card",
+        "timestamp": 1718666044177
+    },
+    {
+        "purchaseId": 21,
+        "concertId": "10",
+        "seats": [
+            "B12"
+        ],
+        "paymentMethod": "credit card",
+        "timestamp": 1718666044212
+    }
+]

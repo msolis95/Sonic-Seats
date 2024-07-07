@@ -1,0 +1,127 @@
+/**
+ * CS 132 Spring 2024
+ * Final Project
+ * Name: Mario Solis
+ * Partner: Evelyn Huerta
+ *
+ * This is the styles.css file for the Sonic Seats website,
+ * giving all pages a similar style and theme.
+ */
+
+body {
+    font-family: Carlito, 'Times New Roman', Times, serif;
+    background-color: orange;
+    min-height: 100vh;
+    margin-bottom: 0px;
+}
+
+body {
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 36pt;
+}
+
+header > div {
+    margin: 15px 15px 0px;
+}
+
+body, header > div, nav, footer {
+    display: flex;
+}
+
+body, header > div, nav {
+    justify-content: space-between;
+}
+
+header > div, nav {
+    align-items: center;
+}
+
+header img {
+    width: 80px;
+    height: 100%;
+}
+
+header p {
+    margin: 0px;
+}
+
+header ul, nav > a {
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+}
+
+header ul {
+    padding-left: 10px;
+    margin: 0px;
+}
+
+nav > a {
+    padding: 0px 10px;
+}
+
+header li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a:link, a:visited {
+    color: red;
+}
+
+a:hover {
+    color: crimson;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    margin-top: 10px;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+#message-area {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: yellow;
+    font-size: 16pt;
+}   
+
+main {
+    flex-grow: 1;
+}
+
+h2 {
+    font-size: 20pt;
+    text-decoration-line: underline;
+}
+
+footer {
+    text-align: center;
+    flex-grow: 1;
+    align-items: end;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+}
+
+footer p {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+span {
+    color: orangered;
+    font-weight: bold;
+}

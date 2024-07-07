@@ -1,0 +1,29 @@
+[
+    {
+        "category": "Tickets",
+        "name": "Albert Robinson",
+        "email": "albrob@gmail.com",
+        "phone": "(909) 674-8903",
+        "description": "Such good service!"
+    },
+    {
+        "category": "Top Picks",
+        "name": "Mario",
+        "email": "msolis@caltech.edu",
+        "description": "I have great music taste, don't I?"
+    },
+    {
+        "category": "Top Picks",
+        "name": "Mario Solis",
+        "description": "I have great music taste!"
+    },
+    {
+        "category": "Concerts",
+        "description": "Can you please add Shakira's upcoming concert at Capital One Arena? Thanks!"
+    },
+    {
+        "category": "Tickets",
+        "name": "Mario (me)",
+        "description": "Hi Mario I just wanted to say hi :)"
+    }
+]

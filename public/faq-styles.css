@@ -1,0 +1,31 @@
+/* 
+ * CS 132
+ * Name: Mario Solis
+ * Partner: Evelyn Huerta
+ *
+ * This is the paragraphs-styles.css file for the FAQ page on the Sonic Seats website.
+ */
+
+ul {
+    margin: 0px;
+}
+
+section li {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.question {
+    width: 30vw;
+    margin-right: 30px;
+}
+
+.answer {
+    width: 50vw;
+}
+
+.faq-label {
+    font-weight: bold;
+    margin-right: 5px;
+}
